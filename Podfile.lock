@@ -1,0 +1,152 @@
+PODS:
+  - BMPlayer (1.3.0):
+    - BMPlayer/Full (= 1.3.0)
+  - BMPlayer/Core (1.3.0)
+  - BMPlayer/Full (1.3.0):
+    - BMPlayer/Core
+    - NVActivityIndicatorView (~> 4.7.0)
+    - SnapKit (~> 5.0.0)
+  - Braintree/Card (4.23.0):
+    - Braintree/Core
+  - Braintree/Core (4.23.0)
+  - Braintree/PaymentFlow (4.23.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.23.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.23.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.23.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.23.0)
+  - Braintree/UnionPay (4.23.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (7.1.0):
+    - BraintreeDropIn/DropIn (= 7.1.0)
+  - BraintreeDropIn/DropIn (7.1.0):
+    - Braintree/Card (~> 4.23)
+    - Braintree/Core (~> 4.23)
+    - Braintree/PaymentFlow (~> 4.23)
+    - Braintree/PayPal (~> 4.23)
+    - Braintree/UnionPay (~> 4.23)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (7.1.0)
+  - Cosmos (17.0.0)
+  - ESTabBarController-swift (2.7)
+  - FHMultilineTextField (0.1.0):
+    - GrowingTextView (~> 0.4.0)
+  - GrowingTextView (0.4.0)
+  - IQKeyboardManager (6.3.0)
+  - JGProgressHUD (2.0.3)
+  - M13Checkbox (3.4.0)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - PhoneNumberKit (2.6.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.6.0)
+    - PhoneNumberKit/UIKit (= 2.6.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.6.0)
+  - PhoneNumberKit/UIKit (2.6.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - ReachabilitySwift (4.3.1)
+  - Realm (3.15.0):
+    - Realm/Headers (= 3.15.0)
+  - Realm/Headers (3.15.0)
+  - RealmSwift (3.15.0):
+    - Realm (= 3.15.0)
+  - Result (4.1.0)
+  - RNCryptor (5.1.0)
+  - SnapKit (5.0.0)
+  - SwiftHash (2.0.2)
+  - SwiftKeychainWrapper (3.3.0)
+  - SwiftMessages (6.0.2):
+    - SwiftMessages/App (= 6.0.2)
+  - SwiftMessages/App (6.0.2)
+  - SwiftSoup (2.0.0)
+  - SwiftyBeaver (1.7.0)
+  - Swinject (2.6.0)
+
+DEPENDENCIES:
+  - BMPlayer (~> 1.3.0)
+  - BraintreeDropIn
+  - Cosmos (~> 17.0)
+  - ESTabBarController-swift
+  - FHMultilineTextField
+  - IQKeyboardManager
+  - JGProgressHUD
+  - M13Checkbox
+  - PhoneNumberKit
+  - ReachabilitySwift
+  - Realm
+  - RealmSwift
+  - Result
+  - RNCryptor
+  - SwiftHash
+  - SwiftKeychainWrapper
+  - SwiftMessages
+  - SwiftSoup
+  - SwiftyBeaver
+  - Swinject
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BMPlayer
+    - Braintree
+    - BraintreeDropIn
+    - Cosmos
+    - ESTabBarController-swift
+    - FHMultilineTextField
+    - GrowingTextView
+    - IQKeyboardManager
+    - JGProgressHUD
+    - M13Checkbox
+    - NVActivityIndicatorView
+    - PhoneNumberKit
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - Result
+    - RNCryptor
+    - SnapKit
+    - SwiftHash
+    - SwiftKeychainWrapper
+    - SwiftMessages
+    - SwiftSoup
+    - SwiftyBeaver
+    - Swinject
+
+SPEC CHECKSUMS:
+  BMPlayer: 92a1c2a721694ba6ab107661e7aff670909671c6
+  Braintree: b5841b9b1c1dadc86959db3e29d36099b67f91bf
+  BraintreeDropIn: a019fcbf4edb87c55780ec01d5db3998b19164ce
+  Cosmos: 309e489f21ffc91a1eeecfebef7f817cd2fcfba6
+  ESTabBarController-swift: 4fb52ad03d94d0717ef97bc9eb09a5abfdded0a2
+  FHMultilineTextField: 341d61b010cdfbcc34c2703e660b7eb62b4a8154
+  GrowingTextView: b84085f4527a29d077364329d43e612ce7f26f43
+  IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  M13Checkbox: 6f59404540ac98ba83a3d1afac335895a40c6a5d
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  PhoneNumberKit: 167ee1f0bbb6efce7c62559e620eae745595532f
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Realm: 9b834e1be6062f544805252c812348872dc5d4ed
+  RealmSwift: 8a41886f8ab6efef9eb8df97de2f2bb911561a79
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RNCryptor: a369134686cd2ad391323cc856b62e591193ba79
+  SnapKit: fd22d10eb9aff484d79a8724eab922c1ddf89bcf
+  SwiftHash: 6d312abe61c8359bdef8d0093642f3a70b1c17ba
+  SwiftKeychainWrapper: ef5ad793bc0e08e24a5913f28345b8f7bc8e4123
+  SwiftMessages: 8b3cc68dba2f1c91aac1a74c90b10287aac35371
+  SwiftSoup: 4fe21f65cdbfa3a40559047016b7962b88d29279
+  SwiftyBeaver: 4cc0080d2e23f980652e28978db11a5c9da39165
+  Swinject: 48a96cda93633cf2860697b4ce76ab5db9ebaca2
+
+PODFILE CHECKSUM: a414c923869c582087264a7de75132a28f590a43
+
+COCOAPODS: 1.6.2
